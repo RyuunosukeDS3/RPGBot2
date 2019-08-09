@@ -1,0 +1,188 @@
+{
+  "Ryuunosuke": {
+    "Ryuunosuke": {
+      "characterclass": "Guerreiro",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": {
+          "price": 40,
+          "damage": {
+            "min": 4,
+            "max": 10
+          },
+          "name": "Bastard Sword"
+        }
+      },
+      "MaxHp": "30",
+      "MaxSp": "10",
+      "Hp": "30",
+      "Sp": "10",
+      "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/heretics_staff-icon.png",
+      "Novas": 60,
+      "inventory": {
+        "Armas": {
+          "Bastard Sword": {
+            "price": 40,
+            "damage": {
+              "min": 4,
+              "max": 10
+            },
+            "name": "Bastard Sword"
+          },
+          "name": "Armas",
+          "description": "Instrumentos usados para causar dano aos inimigos."
+        }
+      }
+    }
+  },
+  "Tio": {
+    "Robson": {
+      "characterclass": "Mago",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": "bare hand"
+      },
+      "MaxHp": "20",
+      "MaxSp": "20",
+      "Hp": "20",
+      "Sp": "20",
+      "image": "https://pics.me.me/Facebook-42e579.png",
+      "Novas": 100,
+      "inventory": {}
+    }
+  },
+  "nona": {
+    "Nona": {
+      "characterclass": "Assassino",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": "bare hand"
+      },
+      "MaxHp": "25",
+      "MaxSp": "15",
+      "Hp": "25",
+      "Sp": "15",
+      "image": "http://www.cineset.com.br/wp-content/uploads/2019/03/Love-Death-Robots.jpg",
+      "Novas": 100,
+      "inventory": {}
+    }
+  },
+  "Gustavo Borela": {
+    "Gigante": {
+      "characterclass": "Guerreiro",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": "bare hand"
+      },
+      "MaxHp": "30",
+      "MaxSp": "10",
+      "Hp": "30",
+      "Sp": "10",
+      "image": "https://i.etsystatic.com/6657844/r/il/16c0e6/1481166006/il_794xN.1481166006_fix9.jpg",
+      "Novas": 100,
+      "inventory": {}
+    }
+  },
+  "Renji": {
+    "Renji": {
+      "characterclass": "Hunter",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": {
+          "price": 40,
+          "damage": {
+            "min": 3,
+            "max": 7
+          },
+          "name": "Short Bow"
+        }
+      },
+      "MaxHp": "20",
+      "MaxSp": "20",
+      "Hp": "20",
+      "Sp": "20",
+      "image": "https://cdn.discordapp.com/attachments/609228195480207372/609229329653694465/c002.jpg",
+      "Novas": 60,
+      "inventory": {
+        "Armas": {
+          "Short Bow": {
+            "price": 40,
+            "damage": {
+              "min": 3,
+              "max": 7
+            },
+            "name": "Short Bow"
+          },
+          "name": "Armas",
+          "description": "Instrumentos usados para causar dano aos inimigos."
+        }
+      }
+    }
+  },
+  "Midnight Queen": {
+    "Midnight Queen": {
+      "characterclass": "Hunter",
+      "level": 1,
+      "equipamentos": {
+        "helmet": "none",
+        "chest": "none",
+        "arms": "none",
+        "legs": "none",
+        "boots": "none",
+        "weapons": {
+          "price": 40,
+          "damage": {
+            "min": 3,
+            "max": 7
+          },
+          "name": "Short Bow"
+        }
+      },
+      "MaxHp": "20",
+      "MaxSp": "20",
+      "Hp": "20",
+      "Sp": "20",
+      "image": "https://i.imgur.com/rq99dvw.jpg",
+      "Novas": 60,
+      "inventory": {
+        "Armas": {
+          "Short Bow": {
+            "price": 40,
+            "damage": {
+              "min": 3,
+              "max": 7
+            },
+            "name": "Short Bow"
+          },
+          "name": "Armas",
+          "description": "Instrumentos usados para causar dano aos inimigos."
+        }
+      }
+    }
+  }
+}

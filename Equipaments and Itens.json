@@ -1,0 +1,821 @@
+{
+    "Armas": {
+        "onehanded": {
+            "Rapier":{
+                "price": 20,
+                "damage":{
+                    "min": 2,
+                    "max": 7
+                },
+                "name": "Rapier"
+            },
+            "Short Sword":{
+                "price": 100,
+                "damage":{
+                    "min": 3,
+                    "max": 9
+                },
+                "name": "Short Sword"
+            },
+            "Long Sword":{
+                "price": 250,
+                "damage":{
+                    "min": 6,
+                    "max": 11
+                },
+                "name": "Long Sword"
+            },
+            "Dragon Sword":{
+                "price": 400,
+                "damage":{
+                    "min": 10,
+                    "max": 15
+                },
+                "name": "Dragon Sword"
+            },
+            "Crystal Sword":{
+                "price": 600,
+                "damage":{
+                    "min": 15,
+                    "max": 22
+                },
+                "name": "Crystal Sword"
+            },
+            "Demon Sword":{
+                "price": 750,
+                "damage":{
+                    "min": 19,
+                    "max": 28
+                },
+                "name": "Demon Sword"
+            },
+            "description": "Espadas curtas, geralmente usadas acompanhadas de um escudo",
+            "name":"Espadas de uma mão"
+        },
+        "twohanded":{
+            "Bastard Sword": {
+                "price": 40,
+                "damage":{
+                    "min": 4,
+                    "max": 10
+                },
+                "name": "Bastard Sword"
+            },
+            "Claymore": {
+                "price": 150,
+                "damage":{
+                    "min": 8,
+                    "max": 16
+                },
+                "name": "Claymore"
+            },
+            "Black Iron Sword": {
+                "price": 375,
+                "damage":{
+                    "min": 14,
+                    "max": 21
+                },
+                "name": "Black Iron Sword"
+            },
+            "Zweihander": {
+                "price": 700,
+                "damage":{
+                    "min": 18,
+                    "max": 26
+                },
+                "name": "Zweihander"
+            },
+            "Fiery Sword": {
+                "price": 1000,
+                "damage":{
+                    "min": 22,
+                    "max": 30
+                },
+                "name": "Fiery Sword"
+            },
+            "Obisidian Sword": {
+                "price": 1300,
+                "damage":{
+                    "min": 28,
+                    "max": 36
+                },
+                "name": "Obisidian Sword"
+            },
+            "description": "Espadas logas, empunhadas usando as duas mãos",
+            "name":"Espadas de duas mão"
+        },
+        "dagger":{
+            "Dagger": {
+                "price": 20,
+                "damage":{
+                    "min": 2,
+                    "max": 5
+                },
+                "name": "Dagger"
+            },
+            "Bandit's Knife": {
+                "price": 80,
+                "damage":{
+                    "min": 4,
+                    "max": 8
+                },
+                "name": "Bandit's Knife"
+            },
+            "Ghost Blade": {
+                "price": 200,
+                "damage":{
+                    "min": 7,
+                    "max": 11
+                },
+                "name": "Ghost Blade"
+            },
+            "Rondel": {
+                "price": 400,
+                "damage":{
+                    "min": 10,
+                    "max": 16
+                },
+                "name": "Rondel"
+            },
+            "Aquamarine Dagger": {
+                "price": 800,
+                "damage":{
+                    "min": 14,
+                    "max": 25
+                },
+                "name": "Aquamarine Dagger"
+            },
+            "Infernal Dagger": {
+                "price": 1200,
+                "damage":{
+                    "min": 20,
+                    "max": 28
+                },
+                "name": "Infernal Dagger"
+            },
+            "description": "Armas curtas, usadas para ataques rápidos",
+            "name":"Adagas"
+
+        },
+        "staff":{
+            "sourcerer staff":{
+                "price": 60,
+                "damage":{
+                    "min": 1,
+                    "max": 5,
+                    "mdamage": 4
+                },
+                "name": "Sourcerer Staff"
+            },
+            "Witch staff":{
+                "price": 150,
+                "damage":{
+                    "min": 3,
+                    "max": 8,
+                    "mdamage": 6
+                },
+                "name": "Witch Staff"
+            },
+            "Sage staff":{
+                "price": 350,
+                "damage":{
+                    "min": 6,
+                    "max": 10,
+                    "mdamage": 12
+                },
+                "name": "Sage Staff"
+            },
+            "Crystalized staff":{
+                "price": 700,
+                "damage":{
+                    "min": 9,
+                    "max": 13,
+                    "mdamage": 18
+                },
+                "name": "Crystalized Staff"
+            },
+            "Diamond catalyst":{
+                "price": 1100,
+                "damage":{
+                    "min": 12,
+                    "max": 16,
+                    "mdamage": 24
+                },
+                "name": "Diamond Catalyst"
+            },
+            "Demonic Rod":{
+                "price": 1500,
+                "damage":{
+                    "min": 15,
+                    "max": 20,
+                    "mdamage": 30
+                },
+                "name": "Demonic Rod"
+            },
+            "description": "Catalizadores mágicos, usados por magos",
+            "name":"Cajado"
+
+        },
+        "holybooks": {
+            "Bilbia": {
+                "price": 30,
+                "damage":{
+                    "min": 1,
+                    "max": 3,
+                    "mdamage": 3
+                },
+                "name": "Bastard Sword"
+            },
+            "Exorcism Book": {
+                "price": 60,
+                "damage":{
+                    "min": 2,
+                    "max": 6,
+                    "mdamage": 7
+                },
+                "name": "Exorcism Book"
+            },
+            "Demonology Book": {
+                "price": 220,
+                "damage":{
+                    "min": 4,
+                    "max": 10,
+                    "mdamage": 14
+                },
+                "name": "Demonology Book"
+            },
+            "Gariel's Journal": {
+                "price": 350,
+                "damage":{
+                    "min": 6,
+                    "max": 12,
+                    "mdamage": 16
+                },
+                "name": "Gabriel's Journal"
+            },
+            "Forbidden Sacred Book": {
+                "price": 550,
+                "damage":{
+                    "min": 8,
+                    "max": 16,
+                    "mdamage": 22
+                },
+                "name": "FOrbidden Sacred Book"
+            },
+            "God's Diary": {
+                "price": 800,
+                "damage":{
+                    "min": 1,
+                    "max": 3,
+                    "mdamage": 26
+                },
+                "name": "God's Diary"
+            },
+            "description": "Livros sagrados, catalizadores da fé, utiliados por sacerdotes.",
+            "name":"Livros Sagrados"
+        },
+        "bows": {
+            "Short Bow":{
+                "price": 40,
+                "damage":{
+                    "min": 3,
+                    "max": 7
+                },
+                "name": "Short Bow"
+            },
+            "Long Bow":{
+                "price": 120,
+                "damage":{
+                    "min": 5,
+                    "max": 11
+                },
+                "name": "Log Bow"
+            },
+            "Hawlk Eye":{
+                "price": 300,
+                "damage":{
+                    "min": 8,
+                    "max": 16
+                },
+                "name": "Hawlk Eye"
+            },
+            "Guilherme Tell":{
+                "price": 600,
+                "damage":{
+                    "min": 11,
+                    "max": 20
+                },
+                "name": "Guilherme Tell"
+            },
+            "Draconic Bow":{
+                "price": 1000,
+                "damage":{
+                    "min": 14,
+                    "max": 28
+                },
+                "name": "Draconic Bow"
+            },
+            "Satanic Bow":{
+                "price": 1300,
+                "damage":{
+                    "min": 20,
+                    "max": 38
+                },
+                "name": "Satanic Bow"
+            },
+            "description": "Arcos e flechas são usados para ataques rápidos e precisos a longa distancia.",
+            "name":"Arcos"
+        },
+        "shields": {
+            "description": "Usados para defender-se",
+            "name":"Escudos"
+        },
+        "description": "Instrumentos usados para causar dano aos inimigos.",
+        "name":"Armas"
+    },
+    "Armaduras":{
+        "Placas": {
+            "Cabeça":{
+                "Chain Helm":{
+                    "price": 20,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/chain_helm.png",
+                    "name": "Chain Helm"
+                },
+                "Knight Helm":{
+                    "price": 80,
+                    "defense": 4,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/knight_helm.png",
+                    "name": "Knight Helm"
+                },
+                "Elite Knight Helm":{
+                    "price": 200,
+                    "defense": 8,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_helm.png",
+                    "name": "Elite Knight Helm"
+                },
+                "Guardian Helm":{
+                    "price": 350,
+                    "defense": 14,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Elite%20Cleric%20Helm.png",
+                    "name": "Guardian Helm"
+                },
+                "Holy Helm":{
+                    "price": 500,
+                    "denfese": 18,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Giant%20Helm.png",
+                    "name": "Holy Helm"
+                },
+                "Demonic Helm": {
+                    "price": 700,
+                    "defense": 24,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_knight_helm.png",
+                    "name": "Demonic Helm"
+                },
+                "name": "Cabeça",
+                "description": "Proteção para a Cabeça"
+            },
+            "Peito":{
+                "Chain Armor":{
+                    "price": 40,
+                    "defense": 4,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/chain_armor.png",
+                    "name": "Chain Armor"
+                },
+                "Knight Armor":{
+                    "price": 100,
+                    "defense": 6,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/knight_armor.png",
+                    "name": "Knight Armor"
+                },
+                "Elite Knight Armor":{
+                    "price": 400,
+                    "defense": 12,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_helm.png",
+                    "name": "Elite Knight Armor"
+                },
+                "Guardian Armor":{
+                    "price": 600,
+                    "defense": 18,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Elite%20Cleric%20Chest.png",
+                    "name": "Guardian Armor"
+                },
+                "Holy Armor":{
+                    "price": 1000,
+                    "defense": 24,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Giant%20Armor.png",
+                    "name": "Holy Armor"
+                },
+                "Demonic Armor":{
+                    "price": 1400,
+                    "defense": 28,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_knight_armor.png",
+                    "name": "Demonic Armor"
+                },
+                "name":"Peito",
+                "description": "Proteção para o peito"
+            },
+            "Braços":{
+                "Chain Gauntlets":{
+                    "price": 10,
+                    "defense": 1,
+                    "image":"https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/mirrah_chain_gloves.png",
+                    "name":"Chain Gauntlets"
+                },
+                "Knight Gauntlets":{
+                    "price": 30,
+                    "defense": 3,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/knight_gauntlets.png",
+                    "name": "Knight Gauntlets"
+                },
+                "Elite Knight Gauntlets":{
+                    "price": 100,
+                    "defense": 6,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/elite_knight_gauntlets.png",
+                    "name": "Elite Knight Gauntlets"
+                },
+                "Guardian Gauntlets": {
+                    "price": 200,
+                    "defense": 12,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Elite%20Cleric%20Gloves.png",
+                    "name": "Guardian Gauntlets"
+                },
+                "Holy Gaultlets": {
+                    "price": 400,
+                    "defense": 16,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Giant%20Gauntlets.png",
+                    "name": "Holu Gauntlets"
+                },
+                "Demonic Gauntlets": {
+                    "price": 600,
+                    "defense": 18,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_knight_gauntlets.png",
+                    "name": "Demonic Gauntlets"
+                },
+                "name": "Braços",
+                "description": "Proteção para os Braços"
+            },
+            "Pernas":{
+                "Chain Leggings":{
+                    "price": 30,
+                    "defense": 3,
+                    "image" : "https://darksouls.wiki.fextralife.com/file/Dark-Souls/chain_leggings.png",
+                    "name": "Chain Leggings"
+                },
+                "Knight Leggings":{
+                    "price": 70,
+                    "defense": 5,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/knight_leggings.png",
+                    "name": "Knights Leggings"
+                },
+                "Elite Knight Leggings":{
+                    "price": 180,
+                    "defense": 10,
+                    "image": "https://darksouls.wiki.fextralife.com/Eltie+Knight+Leggings",
+                    "name": "Elite Knight Leggings"
+                },
+                "Guardian Leggings":{
+                    "price": 350,
+                    "defense": 14,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Elite%20Cleric%20Legggings.png",
+                    "name": "Guardian Leggings"
+                },
+                "Holy Leggings":{
+                    "price": 700,
+                    "defense": 20,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Giant%20Leggings.png",
+                    "name": "Holy Leggings"
+                },
+                "Demonic Leggings": {
+                    "price": 1000,
+                    "defense": 24,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_knight_leggings.png",
+                    "name": "Demonic Leggings"
+                },
+                "name": "Pernas",
+                "description": "Proteção para as pernas"
+            },
+            "name": "Placas",
+            "description": "Armaduras utilizadas por Guerreiros e Paladinos"
+        },
+        "Couro": {
+            "Cabeça":{
+                "Bandit Helm":{
+                    "price": 20,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/brigand_hood.png",
+                    "name": "Bandit Helm"
+                },
+                "Thief Helm":{
+                    "price": 80,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/hollow_thiefs_hood.png",
+                    "name": "Thief Helm"
+                },
+                "Shadow Thief Helm":{
+                    "price": 200,
+                    "defense": 6,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/thief_mask.png",
+                    "name": "Shadow Thief Helm"
+                },
+                "Assassin Helm":{
+                    "price": 350,
+                    "defense": 12,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/assassin_hood.png",
+                    "name": "Assassin Helm"
+                },
+                "Trickster Helm":{
+                    "price": 500,
+                    "defense": 16,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Snickering%20Top%20Hat.png",
+                    "name": "Assassin Helm"
+                },
+                "Chaos Helm":{
+                    "price": 700,
+                    "defense": 22,
+                    "image": "https://darksouls2.wiki.fextralife.com/file/Dark-Souls-2/Chaos%20Robe.png",
+                    "name": "Chaos Helm"
+                }
+            },
+            "Peito":{
+                "Bandit Armor":{
+                    "price": 40,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/brigand_armor.png",
+                    "name": "Brigand Armor"
+                },
+                "Thief Armor":{
+                    "price": 100,
+                    "defense": 4,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/hollow_thiefs_leather_armor.png",
+                    "name": "Thief Armor"
+                },
+                "Shadow Thief Armor":{
+                    "price": 400,
+                    "defense": 10,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_leather_armor.png",
+                    "name": "Shadow Thief Helm"
+                },
+                "Assassin Armor":{
+                    "price": 600,
+                    "defense": 16,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/assassin_armor.png",
+                    "name": "Assassin Helm"
+                },
+                "Trickster Armor":{
+                    "price": 1000,
+                    "defense": 22,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Chester%27s%20Long%20Coat.png",
+                    "name": "Assassin Helm"
+                },
+                "Chaos Armor":{
+                    "price": 1400,
+                    "defense": 26,
+                    "image": "https://darksouls2.wiki.fextralife.com/file/Dark-Souls-2/Chaos%20Robe.png",
+                    "name": "Chaos Armor"
+                }
+            },
+            "Braços":{
+                "Bandit Gauntlets":{
+                    "price": 10,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/brigand_gauntlets.png",
+                    "name": "Bandit Gauntlets"
+                },
+                "Thief Gauntlets": {
+                    "price": 30,
+                    "defense": 2,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/cornyx's_wrap.png",
+                    "name": "Thief Gauntlets"
+                },
+                "Shadow Thief Gauntlets":{
+                    "price": 100,
+                    "defense": 6,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_leather_gloves.png",
+                    "name": "Shadow Thief Gauntlets"
+                },
+                "Assassin Gauntlets":{
+                    "price": 200,
+                    "defense": 10,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/assassin_gloves.png",
+                    "name": "Assassin Gauntlets"
+                },
+                "Trickster Gauntlets":{
+                    "price": 400,
+                    "defense": 14,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Chester%27s%20Gloves.png",
+                    "name": "Assassin Gauntlets"
+                },
+                "Chaos Gauntlets":{
+                    "price": 600,
+                    "defense": 16,
+                    "image": "https://darksouls2.wiki.fextralife.com/file/Dark-Souls-2/Chaos%20Gloves.png",
+                    "name": "Assassin Gauntlets"
+                },
+                "name": "Couro",
+                "description": "Armaduras utililizadas por Assassinos e Hunters"
+            },
+            "Pernas":{
+                "Brigand Trousers":{
+                    "price": 30,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/brigand_trousers.png",
+                    "name": "Brigand Troursers"
+                },
+                "Thief Trousers":{
+                    "price": 70,
+                    "defense": 3,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/hollow_thiefs_tights.png",
+                    "name": "Thief Troursers"
+                },
+                "Shadow Thief Trouser":{
+                    "price": 180,
+                    "defense": 8,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/black_leather_boots.png",
+                    "name": "Shadow Thief Trousers"
+                },
+                "Assassin Trousers":{
+                    "price": 350,
+                    "defense": 12,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/assassin_trousers.png",
+                    "name": "Assassin Trousers"
+                },
+                "Trickster Trousers":{
+                    "price": 700,
+                    "defense":18,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/Chester%27s%20Trousers.png",
+                    "name": "Trickster Trousers"
+                },
+                "Chaos Trousers":{
+                    "price": 1000,
+                    "defense":22,
+                    "image": "https://darksouls2.wiki.fextralife.com/file/Dark-Souls-2/Chaos%20Boots.png",
+                    "name": "Chaos Trousers"
+                }
+            }
+        },
+        "Pano": {
+            "Cabeça":{
+                "Sorcerer Helm":{
+                    "price": 20,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/sorcerer_hat.png",
+                    "name": "Sorcerer Helm"
+                },
+                "Pyromancer Hood":{
+                    "price": 80,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/tattered_cloth_hood.png",
+                    "name": "Pyromancer Hood"
+                },
+                "Prayer Hood":{
+                    "price": 200,
+                    "defense": 4,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/robe_of_prayer.png",
+                    "name": "Prayer Hood"
+                },
+                "Black Helm":{
+                    "price": 350,
+                    "defense": 10,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/DARK%20SOULS%20III%206_12_2016%201_33_13%20AM.png",
+                    "name": "Black Helm"
+                },
+                "Karla's Hat":{
+                    "price": 500,
+                    "defense": 14,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/karla's_pointed_hat.png",
+                    "name": "Karla's Hat"
+                },
+                "Witch Hat":{
+                    "price": 700,
+                    "defense": 20,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_witch_hat.png",
+                    "name": "Witch Hat"
+                }
+            },
+            "Peito":{
+                "Sorcerer Armor":{
+                    "price": 40,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/sorcerer_cloak.png",
+                    "name": "Sorcerer Armor"
+                },
+                "Pyromancer Armor":{
+                    "price": 100,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/tattered_cloth_robe.png",
+                    "name": "Pyromancer Armor"
+                },
+                "Prayer Armor":{
+                    "price": 400,
+                    "defense": 8,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/robe_of_prayer.png",
+                    "name": "Prayer"
+                },
+                "Black Dress":{
+                    "price": 600,
+                    "defense": 14,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_dress.png",
+                    "name": "Black Dress"
+                },
+                "Karla's Armor":{
+                    "price": 1000,
+                    "defense": 20,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/karla's_coat.png",
+                    "name": "Karla's Armor"
+                },
+                "Witch Armor":{
+                    "price": 1400,
+                    "defense": 24,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_witch_hat.png",
+                    "name": "Witch Armor"
+                }
+            },
+            "Braços":{
+                "Sorcerer Gloves":{
+                    "price": 10,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/sorcerer_gauntlets.png",
+                    "name": "Sorcerer Gloves"
+                },
+                "Pyromancer Gloves": {
+                    "price": 30,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/tattered_cloth_manchette.png",
+                    "name": "Pyromancer Gauntlets"
+                },
+                "Prayer Gloves":{
+                    "price": 100,
+                    "defense": 4,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/fire_keeper_gloves.png",
+                    "name": "Prayer Gloves"
+                },
+                "Black Gauntlets":{
+                    "price": 200,
+                    "defense": 8,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_gauntlets.png",
+                    "name": "Black Gauntlets"
+                },
+                "Karla's Gloves":{
+                    "price": 400,
+                    "defense": 12,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/karla's_gloves.png",
+                    "name": "Karla's Gloves"
+                },
+                "Witch Gloves":{
+                    "price": 600,
+                    "defense": 14,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_witch_wrappings.png",
+                    "name": "Witch Gloves"
+                }
+            },
+            "Pernas":{
+                "Sorcerer Trousers":{
+                    "price": 30,
+                    "defense": 1,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/brigand_trousers.png",
+                    "name": "Sorcerer Troursers"
+                },
+                "Pyromancer Trousers":{
+                    "price": 70,
+                    "defense": 2,
+                    "image": "https://darksouls.wiki.fextralife.com/file/Dark-Souls/heavy_boots.png",
+                    "name": "Pyromancer Troursers"
+                },
+                "Prayer Trouser":{
+                    "price": 180,
+                    "defense": 6,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/skirt_of_prayer.png",
+                    "name": "Prayer Trousers"
+                },
+                "Black Trousers":{
+                    "price": 350,
+                    "defense": 10,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_leggings.png",
+                    "name": "Black Gauntlets"
+                },
+                "Karla's Trousers":{
+                    "price": 700,
+                    "defense":14,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/karla's_trousers.png",
+                    "name": "Karla's Trousers"
+                },
+                "Witch Trousers":{
+                    "price": 1000,
+                    "defense":20,
+                    "image": "https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/black_witch_trousers.png",
+                    "name": "Witch Trousers"
+                },
+                "name": "Pano",
+                "description": "Armaduras utilizadas por Magos e Sacerdotes"
+            }
+        },
+        "description": "Instrumentos usados para se proteger contra os ataques inimigos.",
+        "name": "Armaduras"
+        
+    },
+    "Comsumables":{
+        "description": "Consumiveis para auxiliar em combate.",
+        "name": "Consumiveis"
+    }
+}

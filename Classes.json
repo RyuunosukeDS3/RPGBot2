@@ -1,0 +1,45 @@
+{
+    "guerreiro":{
+        "class": "Guerreiro",
+        "Hp": 30,
+        "Sp": 10,
+        "levelup":{},
+        "Skills":{}
+        
+    },
+    "mago":{
+        "class": "Mago",
+        "Hp": 20,
+        "Sp": 20,
+        "levelup":{},
+        "Skills":{}
+    },
+    "assassino":{
+        "class": "Assassino",
+        "Hp": 25,
+        "Sp": 15,
+        "levelup":{},
+        "Skills":{}
+    },
+    "sacerdote":{
+        "class": "Sacerdote",
+        "Hp": 25,
+        "Sp": 15,
+        "levelup":{},
+        "Skills":{}
+    },
+    "paladino":{
+        "class": "Paladino",
+        "Hp": 35,
+        "Sp": 5,
+        "levelup":{},
+        "Skills":{}
+    },
+    "hunter":{
+        "class": "Hunter",
+        "Hp": 20,
+        "Sp": 20,
+        "levelup":{},
+        "Skills":{}
+    }
+}
